@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -6,17 +9,16 @@ const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
 const streakRoutes = require("./routes/streakRoutes");
 
-
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api", planRoutes);
-app.use("/api", authRoutes); 
+app.use("/api", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/streak", streakRoutes);
 
 const PORT = 5000;
-const MONGO_URI = "mongodb+srv://fitnessdbadmin:fitspireapp@fitness.w82vceb.mongodb.net/?retryWrites=true&w=majority&appName=Fitness"; // Or use Atlas URI
+const MONGO_URI = process.env.MONGO_URI; 
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
