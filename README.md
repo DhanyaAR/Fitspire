@@ -108,7 +108,7 @@ node server.js
 ```
 
 
-### 📸 Sample Screenshots
+## 📸 Sample Screenshots
 
 #### 🏁 Welcome Page  
 Visually engaging landing page introducing FitSpire and prompting user to get started.
