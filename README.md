@@ -60,7 +60,7 @@ Here's a short preview of FitSpire in action — from generating a 7-day plan to
 
 
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: React.js (SPA), Tailwind CSS, JavaScript, Framer Motion  
 - **Backend**: Node.js, Express.js (REST API)  
