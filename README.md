@@ -62,30 +62,21 @@ Here's a short preview of FitSpire in action — from generating a 7-day plan to
 
 ### 🛠️ Tech Stack
 
-**Frontend**: React.js (SPA), Tailwind CSS, JavaScript, Framer Motion  
-**Backend**: Node.js, Express.js (REST API)  
-**Database**: MongoDB  
-**Authentication**: MongoDB with session persistence  
-**AI/ML**: MediaPipe (Pose Detection)  
-**PDF Generation**: jsPDF, html2canvas  
-**Charts & Visuals**: React Calendar Heatmap  
+- **Frontend**: React.js (SPA), Tailwind CSS, JavaScript, Framer Motion  
+- **Backend**: Node.js, Express.js (REST API)  
+- **Database**: MongoDB  
+- **Authentication**: MongoDB with session persistence  
+- **AI/ML**: MediaPipe (Pose Detection)  
+- **PDF Generation**: jsPDF, html2canvas  
+- **Charts & Visuals**: React Calendar Heatmap  
 
 
 ## 🔁 System Flow 
 
-```mermaid
-flowchart TD
-  A[User Signup / Login] --> B[Input Preferences (Goal, Duration, Equipment, Level)]
-  B --> C[Backend API processes request]
-  C --> D[Fetch relevant exercises from JSON dataset]
-  D --> E[Store customized 7-day plan in MongoDB]
-  E --> F[Plan Display Page + Download PDF]
-  F --> G[Start Workout for Today's Session]
-  G --> H[Pose Detection (MediaPipe) + Voice Feedback]
-  G --> I[Timers, Workout and Rest Music, Motivational Prompts]
-  G --> J[Progress Tracking & Streak Update]
-  J --> K[Dashboard Metrics + Badges + Heatmap]
-```
+The following diagram illustrates the end-to-end user journey in the Fitspire app — from signing up to tracking progress.
+
+![System Flow](screenshots/system-flow.png)
+
 
 
 ## ⚙️ Setup Instructions
