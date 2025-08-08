@@ -153,7 +153,7 @@ Tracks user's fitness journey with stats, heatmap, badges, streaks, and consiste
 
 ## 👤 Contributors
 
-- [@dhanyaar29](https://github.com/DhanyaAR) – Entire project ideation, design, development, and deployment.
+- [@dhanyaar29](https://github.com/DhanyaAR) – Entire project ideation, design and development.
 > Built solo from scratch — from custom dataset design and backend logic to frontend UI/UX and ML integration.
 
 
