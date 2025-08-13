@@ -24,7 +24,7 @@ Here's a short preview of FitSpire in action — from generating a 7-day plan to
 
 #### 📺 Full Walkthrough  
 **Watch the full experience** — including AI pose detection, voice feedback, and progress tracking here:  
-[▶️ Watch on YouTube](https://www.youtube.com/watch?v=[[YOUR_VIDEO_ID](https://youtu.be/0j6GQl-NBzk)](https://youtu.be/0j6GQl-NBzk?si=OwqoS9h05bOB4ShT))
+[▶️ Watch on YouTube](https://youtu.be/0j6GQl-NBzk)
 
 
 
